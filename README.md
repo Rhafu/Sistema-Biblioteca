@@ -46,18 +46,23 @@ Efetuar Logout
 <h2> Algumas Telas </h2>
 
 <h3> Cadastro de Livro </h3>
+
 ![Cadastro Livro](https://user-images.githubusercontent.com/83125631/216613372-b3dbca91-b350-4e03-acd5-cbf98aab3dd4.jpg)
 
 <h3> Efetuar Locação </h3>
+
 ![Efetuar Locação](https://user-images.githubusercontent.com/83125631/216617381-26c98b6d-94a9-4a23-bf3c-26a36e9efa96.jpg)
 
 <h3> Visualização de Livros </h3>
+
 ![Livros](https://user-images.githubusercontent.com/83125631/216617401-b7d6a0d3-0394-48be-8dce-292118068ba5.jpg)
 
 <h3> Tela de Locações realizadas (Aluno) </h3>
+
 ![Locações Aluno](https://user-images.githubusercontent.com/83125631/216617417-0ec58e3d-4a7d-47cc-b224-1dd5fd4fc80f.PNG)
 
 <h3> Tela de Locações (Bibliotecario) </h3>
+
 ![Locações](https://user-images.githubusercontent.com/83125631/216617435-23bb4ace-eae3-46d3-993c-db00ffb7594c.PNG)
 
 
