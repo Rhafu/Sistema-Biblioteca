@@ -1,4 +1,4 @@
-<p align="center">![logo](https://user-images.githubusercontent.com/83125631/216614645-2407df44-d69c-4e32-92c9-a74e1b97dd53.png)</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/83125631/216614645-2407df44-d69c-4e32-92c9-a74e1b97dd53.png"></p>
 
 
 Este sistema possui o controle da parte do Bibliotecário e do Aluno.
