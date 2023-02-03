@@ -1,7 +1,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/83125631/216614645-2407df44-d69c-4e32-92c9-a74e1b97dd53.png"></p>
 
 
-Este sistema possui o controle da parte do Bibliotecário e do Aluno.
+Este sistema foi desenvolvido por mim para um Trabalho de Graduação. Possui o controle da parte do Bibliotecário e do Aluno.
 
 O Aluno pode realizar locações de livros e o Bibliotecário possui controle destas locações e também pode realizar locações para alunos.
 
