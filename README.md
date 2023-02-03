@@ -2,9 +2,11 @@
 
 
 Este sistema possui o controle da parte do Bibliotecário e do Aluno.
-O Aluno pode realizar locações de livros e o Bibliotecário possui controle destas locações e 
-também pode realizar locações para alunos.
+
+O Aluno pode realizar locações de livros e o Bibliotecário possui controle destas locações e também pode realizar locações para alunos.
+
 Existem CRUDs importantes no sistema. O Livro foi dividido em diversas partes (como Autor, Genero e etc... sendo cadastrados separadamente) para que reduzisse redundância de informações.
+
 Funcionalidades interessantes são a Verificação de Disponibilidade (baseada na quantidade de livros e da data da locação) e também o Controle de Atrasos, onde o Bibliotecário e o Aluno conseguem visualizar os livros em atraso. Além disso se o Aluno possuir um livro em atraso ele não pode fazer locações. 
 
 <h2> Funcionalidades Importantes </h2>
