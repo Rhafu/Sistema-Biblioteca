@@ -72,7 +72,7 @@ CREATE TABLE `bibliotecarios` (
 --
 
 INSERT INTO `bibliotecarios` (`nomeBibliotecario`, `emailBibliotecario`, `senhaBibliotecario`, `telefoneBibliotecario`, `cpfBibliotecario`, `fotoBibliotecario`, `dataNascBibliotecario`, `tokenBibliotecario`) VALUES
-('Rafael Mattos', 'rhafu29@gmail.com', '$2y$10$3QIuBMHYdOABTm38DX8iSeARpr1SJRxqUTntavJOAiHPZV3IQbdA2', '55189916369', '52521779887', 'a1e3c5b4b12edf355c93a674d51765e91.PNG', '2021-11-26', '725e1fb844a1491c3e744b178d6f26ff'),
+('Rafael Mattos', 'rhafu29@gmail.com', '$2y$10$3QIuBMHYdOABTm38DX8iSeARpr1SJRxqUTntavJOAiHPZV3IQbdA2', '55189916369', '79999999999', 'a1e3c5b4b12edf355c93a674d51765e91.PNG', '2021-11-26', '725e1fb844a1491c3e744b178d6f26ff'),
 ('Alexandre Marcelino', 'alexandre@gmail.com', '$2y$10$vBApEf0qsJMZ8R86f1I8Ae/rpFfMRq82LIkwFKxQ5w6JigOg.P7uO', '(19) 99999-9999', '75315948625', '69899428fe0fd1bb5bd953fa0c036db4Xandex.png', '2004-01-15', 'fd240b6b8042b0456e8f2d45ff3ce5c6');
 
 -- --------------------------------------------------------
