@@ -1,0 +1,81 @@
+/* .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    flex: 1;
+    background-color: #E1E0DE;
+    margin: 10px 0px 0 20px;
+}
+
+.dropdown-livros:hover .dropdown-content-livros{
+    display: block;
+}
+
+.dropdown-item-livros, .dropdown-livros {
+    background-color: #F2E085;
+    box-shadow: 2px 2px 1px #686765c2;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-item-livros:hover{
+    cursor: pointer;
+}
+
+.dropdown-content-livros{
+    margin-top: 10px;
+    display: none;
+} */
+
+@keyframes dropdown-livros-show{
+    0% {left: 120%; opacity: 0;}
+    100% {left: 100%; opacity: 1;}
+}
+
+nav{
+    flex: 1;
+    background-color: #E1E0DE;
+    margin: 10px 0px 0 20px;
+}
+
+.dropdown-livros:hover .dropdown-content-livros{
+    display: block;
+    animation-name: dropdown-livros-show;
+    animation-duration: .2s;
+}
+
+.dropdown-livros{
+    position: relative;
+}
+
+.dropdown-content-livros{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+.dropdown-item-livros, .dropdown-livros {
+    background-color: #F2E085;
+    box-shadow: 2px 2px 1px #686765c2;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.dropdown-livros, .dropdown-item-livros:hover{
+    cursor: pointer;
+}
+
+.dropdown-content-livros{
+
+    display: none;
+}

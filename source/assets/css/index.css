@@ -1,0 +1,176 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MENU */
+.active {
+    background-color: #b9b7b3;
+}
+
+nav {
+    background-color: #E1E0DE;
+    height: 250px;
+    flex: 1;
+    margin: 10px 0px 0 20px;
+}
+
+nav>ul>li {
+    background-color: #F2E085;
+    box-shadow: 2px 2px 1px #686765c2;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    transition: background-color .3s, color .3s;
+}
+
+nav>ul>li:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #c09b16;
+}
+
+/* FIM MENU */
+
+/* LIVROS / MAIN */
+.categoria-e-pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoria-e-pesquisa input[type="text"] {
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px rgba(110, 110, 110, 0.747);
+}
+
+.categoria-e-pesquisa h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+.menu-livros-geral {
+    background-color: #e4e4e4;
+
+}
+
+
+.livros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main {
+    border-left: 1px solid black;
+    background-color: var(--cor-fundo);
+    padding: 5px;
+    color: black;
+    flex: 3;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* FIM LIVROS / MAIN */
+
+/* FORMATAÇÃO LIVROS INDIVIDUALMENTE */
+.livro {
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+    max-width: 300px;
+    text-align: center;
+    transition: box-shadow .5s;
+}
+
+.livro img{
+    width: 200px;
+    height: 250px;
+}
+
+.livro:hover{
+    box-shadow: 5px 5px 10px rgba(110, 110, 110, 0.39);
+}
+
+.livro-apresentacao {
+    display: flex;
+}
+
+.livro>a {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(99, 99, 99);
+}
+
+footer {
+    background: linear-gradient(to top, #011c41, #011D40);
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* FORMATAÇÃO LIVROS INDIVIDUALMENTE FIM */
+/* INICIO FOOTER */
+/* @media screen and (min-width: 1050px) {
+    .livro {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .livro {
+        max-width: 400px;
+    }
+} 
+*/
+
+@media screen and (max-width: 690px) {
+    .categoria-e-pesquisa {
+        display: block;
+    }
+
+    .categoria-e-pesquisa input[type="text"] {
+        width: 80%;
+    }
+
+    .categoria-e-pesquisa input[type="submit"] {
+        width: 15%;
+    }
+
+    .login-usuario p {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .livros {
+        display: block;
+    }
+
+    .livro {
+        max-width: none;
+        width: 100%;
+    }
+
+    .livro img {
+        width: 200px;
+    }
+}
