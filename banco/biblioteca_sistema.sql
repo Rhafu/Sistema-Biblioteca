@@ -23,6 +23,15 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
+-- 
+-- Evento de atualizar locação que está em atraso. Este evento pode ser modificado de acordo com a frequência de verificação
+--
+
+CREATE EVENT verificaAtraso ON SCHEDULE EVERY 1 MINUTE
+DO
+    UPDATE locacoes SET locacoes.atrasado = 1 WHERE locacoes.ativo = 1 AND
+    locacoes.dataDevolucao is null AND locacoes.dataTermino < CURRENT_DATE;
+
 --
 -- Estrutura da tabela `alunos`
 --
